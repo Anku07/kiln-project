@@ -41,7 +41,7 @@ export const TaskList = () => {
   return (
     <div className="space-y-4">
       <div className="flex gap-2 mb-4">
-        {["ALL", "COMPLETED", "PENDING", "OVERDUE"].map((filterOption) => (
+        {["ALL", "COMPLETED", "PENDING"].map((filterOption) => (
           <Button
             key={filterOption}
             onClick={() => setFilter(filterOption)}
